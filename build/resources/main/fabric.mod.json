@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "id": "leveling",
+  "version": "0.1.0",
+  "name": "TOMC-Leveling",
+  "description": "Gain attribute points by surpassing your highest experience level, then spend them on six attributes. Includes the Mengpo Soup reset item.",
+  "authors": ["ThatOne", "DeepSeek Harness"],
+  "license": "GPLv3",
+  "icon": "assets/leveling/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.tomc.leveling.Leveling"],
+    "client": ["com.tomc.leveling.LevelingClient"],
+    "modmenu": ["com.tomc.leveling.config.ModMenuIntegration"]
+  },
+  "mixins": ["leveling.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "modmenu": "*"
+  }
+}

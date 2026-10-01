@@ -1,0 +1,9 @@
+{
+  "attribute": "minecraft:attack_damage",
+  "display_key": "attribute.name.attack_damage",
+  "description_key": "attribute.name.attack_damage.description",
+  "order": 3,
+  "cost": 1,
+  "operation": "add_multiplied_total",
+  "value_per_level": 0.05
+}

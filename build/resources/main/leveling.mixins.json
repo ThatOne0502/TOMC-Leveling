@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "package": "com.tomc.leveling.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerExperienceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

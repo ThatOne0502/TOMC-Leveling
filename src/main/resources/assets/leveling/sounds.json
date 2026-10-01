@@ -1,0 +1,10 @@
+{
+  "leveling": {
+    "sounds": [
+      {
+        "name": "leveling:leveling",
+        "stream": false
+      }
+    ]
+  }
+}
