@@ -1,9 +1,0 @@
-{
-  "attribute": "minecraft:movement_speed",
-  "display_key": "attribute.name.movement_speed",
-  "description_key": "attribute.name.movement_speed.description",
-  "order": 4,
-  "cost": 1,
-  "operation": "add_multiplied_total",
-  "value_per_level": 0.02
-}

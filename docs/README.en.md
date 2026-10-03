@@ -1,23 +1,10 @@
-<p align="center"><img src="src/main/resources/assets/leveling/leveling_logo.png" width="800"></p>
+<p align="center"><img src="../src/main/resources/assets/leveling/leveling_logo.png" width="800"></p>
 
-<p align="center"><a href="docs/README.en.md">English</a> &nbsp;·&nbsp; <a href="docs/README.zh-CN.md">简体中文</a></p>
-
-> [!WARNING]
-> **早期开发阶段 / Early Development**
->
-> 本项目仍处于非常早期的开发阶段。功能、数据格式、命令和 API 都可能发生重大变更，且不保证向后兼容。请勿用于生产环境或长期存档，升级前务必备份。
->
-> This project is in a very early stage of development. Features, data formats, commands, and APIs may change significantly without backward compatibility. Not recommended for production or long-term worlds. Always back up before updating.
->
-> **AI 辅助创作 / AI-Assisted**
->
-> 本项目在开发过程中使用了 AI 辅助（deepseek-v4-pro）。且并不是所有代码、文档与设计均经过人工审查与测试。
->
-> This project was developed with assistance from AI (deepseek-v4-pro). NOT all code, documentation, and design have been reviewed and tested by humans.
+<p align="center"><a href="../README.md">根目录 / Root</a> &nbsp;·&nbsp; <a href="README.zh-CN.md">简体中文</a></p>
 
 # TOMC-Leveling
 
-> 📘 **Data-driven guide** — [docs/data-driven.en.md](docs/data-driven.en.md)
+> 📘 **Data-driven guide** — [data-driven.en.md](data-driven.en.md)
 
 **TOMC-Leveling** is a progression mod for **Fabric** on **Minecraft 1.21.11** that rewards you with attribute points whenever you surpass your historical highest experience level. Spend those points on six attributes, or drink a Mengpo Soup to reset your build and start over.
 
@@ -31,17 +18,17 @@ Every time your experience level rises above the highest level you have ever rea
 
 Press **I** (rebindable in `Options → Controls → Key Binds`) to open the upgrade panel. It renders in the inventory style and shows, for each attribute:
 
-- **序号 / Order** — the configured sort position.
-- **名称 / Name** — the localized attribute name.
-- **当前值 / Current value** — the live, modded value.
-- **已投入 / Spent** — how many points are already invested.
-- **提升 / Upgrade** — the `[+]` button to spend points.
+- **Order** — the configured sort position.
+- **Name** — the localized attribute name.
+- **Current value** — the live, modded value.
+- **Spent** — how many points are already invested.
+- **Upgrade** — the `[+]` button to spend points.
 
 The panel supports a search box (matches order, translated name, or attribute ID), mouse-wheel scrolling inside the table, and closes when you press **I** again. Points are spent instantly and applied as attribute modifiers.
 
 ### 🍲 Mengpo Soup (Reset Item)
 
-**孟婆汤 / Mengpo Soup** wipes your entire build: it refunds every spent point, clears all attribute allocations, and — depending on server config — optionally clears your recipes and advancements. It is always edible, takes 96 ticks to drink (three times a normal food), stacks to one, and returns an empty bowl.
+**Mengpo Soup** wipes your entire build: it refunds every spent point, clears all attribute allocations, and — depending on server config — optionally clears your recipes and advancements. It is always edible, takes 96 ticks to drink (three times a normal food), stacks to one, and returns an empty bowl.
 
 ### 🛠️ Commands
 
@@ -61,7 +48,7 @@ When you gain a point you hear a chime and see a reminder. Unspent points can al
 
 ## Design philosophy
 
-TOMC-Leveling keeps the mod's rules **data-driven** and its authority **server-side**. Attribute definitions — which attributes exist, what they cost, and how each level scales — come from JSON files under `data/leveling/`, so servers and packs can add, remove, or rebalance attributes without touching code. The server owns every number: the client only renders what the server sends. See the [data-driven guide](docs/data-driven.en.md) for the full format.
+TOMC-Leveling keeps the mod's rules **data-driven** and its authority **server-side**. Attribute definitions — which attributes exist, what they cost, and how each level scales — come from JSON files under `data/leveling/`, so servers and packs can add, remove, or rebalance attributes without touching code. The server owns every number: the client only renders what the server sends. See the [data-driven guide](data-driven.en.md) for the full format.
 
 ## Requirements
 
@@ -84,12 +71,12 @@ Configuration is split between client and server, both editable through **Mod Me
 
 ## License
 
-[GPL-3.0](LICENSE)
+[GPL-3.0](../LICENSE)
 
 ---
 
 <div align="center">
 
-📘 **[Data-driven guide](docs/data-driven.en.md)** &nbsp;·&nbsp; **[English](docs/README.en.md)** &nbsp;·&nbsp; **[简体中文](docs/README.zh-CN.md)**
+📘 **[Data-driven guide](data-driven.en.md)** &nbsp;·&nbsp; **[根目录 / Root](../README.md)** &nbsp;·&nbsp; **[简体中文](README.zh-CN.md)**
 
 </div>

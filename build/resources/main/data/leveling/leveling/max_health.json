@@ -1,9 +1,0 @@
-{
-  "attribute": "minecraft:max_health",
-  "display_key": "attribute.name.max_health",
-  "description_key": "attribute.name.max_health.description",
-  "order": 1,
-  "cost": 1,
-  "operation": "add_value",
-  "value_per_level": 2.0
-}

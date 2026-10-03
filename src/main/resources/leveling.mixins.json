@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "com.tomc.leveling.mixin",
+  "package": "io.github.thatone0502.leveling.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
     "PlayerExperienceMixin"

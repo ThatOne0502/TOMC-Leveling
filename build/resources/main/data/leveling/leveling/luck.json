@@ -1,9 +1,0 @@
-{
-  "attribute": "minecraft:luck",
-  "display_key": "attribute.name.luck",
-  "description_key": "attribute.name.luck.description",
-  "order": 6,
-  "cost": 1,
-  "operation": "add_value",
-  "value_per_level": 0.2
-}

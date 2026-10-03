@@ -1,5 +1,6 @@
 {
   "leveling": {
+    "subtitle": "subtitles.leveling.leveling",
     "sounds": [
       {
         "name": "leveling:leveling",

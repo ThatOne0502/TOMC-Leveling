@@ -3,15 +3,15 @@
   "id": "leveling",
   "version": "${version}",
   "name": "TOMC-Leveling",
-  "description": "Gain attribute points by surpassing your highest experience level, then spend them on six attributes. Includes the Mengpo Soup reset item.",
-  "authors": ["ThatOne", "DeepSeek Harness"],
-  "license": "GPLv3",
-  "icon": "assets/leveling/icon.png",
+  "description": "Gain attribute points by surpassing your highest experience level, then spend them on six attributes. Includes the Mengpo Soup reset item.\n\nDevelopment assisted by DeepSeek Harness (deepseek-v4-pro).",
+  "authors": ["ThatOne"],
+  "license": "GPL-3.0-or-later",
+  "icon": "assets/leveling/leveling_icon.png",
   "environment": "*",
   "entrypoints": {
-    "main": ["com.tomc.leveling.Leveling"],
-    "client": ["com.tomc.leveling.LevelingClient"],
-    "modmenu": ["com.tomc.leveling.config.ModMenuIntegration"]
+    "main": ["io.github.thatone0502.leveling.Leveling"],
+    "client": ["io.github.thatone0502.leveling.LevelingClient"],
+    "modmenu": ["io.github.thatone0502.leveling.config.ModMenuIntegration"]
   },
   "mixins": ["leveling.mixins.json"],
   "depends": {
